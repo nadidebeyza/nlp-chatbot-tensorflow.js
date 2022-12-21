@@ -1,4 +1,4 @@
-### Pre-Trained Chatbot TensorFlow.js Model(Implemented in 4 hours)
+### Pre-Trained Chatbot TensorFlow.js Model(Quick Project)
 
 ![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/1.png "Example output of the code")
 
