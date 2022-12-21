@@ -1,5 +1,7 @@
 ### Pre-Trained Chatbot TensorFlow.js Model
 
+![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/1.png "Example output of the code")
+
 **The Tools Used**
 
 In our project, we used the Tensorflow library. Tensorflow has a pre-trained model called “qna” which gives answers to questions of a given text. The model has trained with SQuAD (Stanford Question Answering Dataset) dataset which contains articles from Wikipedia and question-answer pairs with them. It also uses BERT transformers.
@@ -26,7 +28,11 @@ The user can upload a text file into the interface.
 
 After uploading the file, the user can ask a question about the given paragraph. Then the bot will return the answers with the highest matching scores. The user can also download the chat archive and download all possible answers including lower accuracy.
 
-![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/1.png "Example output of the code")
+![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/2.png "Example output of the code")
+![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/3.png "Example output of the code")
+![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/4.png "Example output of the code")
+![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/5.png "Example output of the code")
+![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/6.png "Example output of the code")
 
 **References**
 
