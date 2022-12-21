@@ -6,22 +6,21 @@ In our project, we used the Tensorflow library. Tensorflow has a pre-trained mod
 
 We used npm to import the Tensorflow qna model. With the code below, we load the model.
 
-  answersOutput = document.getElementById('answer');
-  inputText = document.getElementById('input-text');
-  questionText = document.getElementById('question');
-
-  model = await qna.load();
+    answersOutput = document.getElementById('answer');
+    inputText = document.getElementById('input-text');
+    questionText = document.getElementById('question');
+    model = await qna.load();
   
 With model.findAnswers, we give questions and content as input parameters and get answers to these questions with a confidence level. We then display answers on the box.
 
-      model.findAnswers(questionText.value, inputText.value).then((answers) => {
-        const ans = answers.map((answer) => `${answer.text}`);
-        const conf = answers.map((answer) => `(confidence: ${answer.score})`);
-        const ans_conf = answers.map((answer) => `${answer.text} (confidence: ${answer.score})`);        
-        colect.push(ans_conf)
+     model.findAnswers(questionText.value, inputText.value).then((answers) => {
+       const ans = answers.map((answer) => `${answer.text}`);
+       const conf = answers.map((answer) => `(confidence: ${answer.score})`);
+       const ans_conf = answers.map((answer) => `${answer.text} (confidence: ${answer.score})`);        
+       colect.push(ans_conf)
         
-        const answersList = answers.map((answer) => `<li>${answer.text} (confidence: ${answer.score})</li>`)
-          .join('<br>');
+       const answersList = answers.map((answer) => `<li>${answer.text} (confidence: ${answer.score})</li>`)
+         .join('<br>');
           
 The user can upload a text file into the interface.
 
