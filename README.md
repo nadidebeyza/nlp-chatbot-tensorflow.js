@@ -1,6 +1,4 @@
-# nlp-chatbot-tensorflow.js
-
-### Pre-Trained Question and Answer TensorFlow.js Model
+### Pre-Trained Chatbot TensorFlow.js Model
 
 **The Tools Used**
 
