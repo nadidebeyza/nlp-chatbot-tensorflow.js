@@ -26,6 +26,8 @@ The user can upload a text file into the interface.
 
 After uploading the file, the user can ask a question about the given paragraph. Then the bot will return the answers with the highest matching scores. The user can also download the chat archive and download all possible answers including lower accuracy.
 
+[![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/1.png "Example output of the code")]
+
 **References**
 
 - “@tensorflow-models/qna” NPMJS,
