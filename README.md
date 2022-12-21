@@ -28,7 +28,7 @@ After uploading the file, the user can ask a question about the given paragraph.
 
 **References**
 
-“@tensorflow-models/qna” NPMJS,
+- “@tensorflow-models/qna” NPMJS,
 https://www.npmjs.com/package/@tensorflow-models/qna?activeTab=readme
 (accessed Dec. 18, 2022).
 - Aditya Malte, P. R. (2019) Evolution of Transfer Learning in Natural Language
