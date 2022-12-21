@@ -38,6 +38,8 @@ After uploading the file, the user can ask a question about the given paragraph.
 
 ![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/6.png "Example output of the code")
 
+![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/7.png "Example output of the code")
+
 **References**
 
 - “@tensorflow-models/qna” NPMJS,
