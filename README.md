@@ -26,7 +26,7 @@ With model.findAnswers, we give questions and content as input parameters and ge
           
 The user can upload a text file into the interface.
 
-After uploading the file, the user can ask a question about the given paragraph. Then the bot will return the answers with the highest matching scores. The user can also download the chat archive and download all possible answers including lower accuracy.
+After uploading the file, the user can ask a question about the given paragraph. Then the bot will return the answers with the highest matching scores. The user can also download the chat archive as a .json file and download all possible answers as a .txt file including lower accuracy.
 
 ![Example output of the code](https://github.com/nadidebeyza/nlp-chatbot-tensorflowjs/blob/main/demo/2.png "Example output of the code")
 
